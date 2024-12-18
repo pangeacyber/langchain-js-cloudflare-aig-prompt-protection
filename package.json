@@ -1,0 +1,27 @@
+{
+  "name": "@pangeacuber/langchain-js-cloudflare-aig-prompt-protection",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT0",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "format": "biome format",
+    "lint": "biome lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/cloudflare": "0.1.0",
+    "@langchain/core": "0.3.24",
+    "pangea-node-sdk": "4.2.0-beta.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@cloudflare/vitest-pool-workers": "0.5.38",
+    "typescript": "5.7.2",
+    "ultracite": "4.1.14",
+    "wrangler": "3.96.0"
+  }
+}
