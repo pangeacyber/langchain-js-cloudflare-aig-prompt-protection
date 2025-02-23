@@ -44,8 +44,8 @@ export class PangeaAiGuardRunnable<
       throw new Error('Failed to guard text.');
     }
 
-    if (redacted.result.redacted_prompt) {
-      latestHumanMessage.content = redacted.result.redacted_prompt;
+    if (redacted.result.prompt_text) {
+      latestHumanMessage.content = redacted.result.prompt_text;
     }
 
     return input;

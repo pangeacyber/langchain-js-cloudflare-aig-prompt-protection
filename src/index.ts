@@ -69,7 +69,7 @@ export default {
       if (error instanceof MaliciousPromptError) {
         return Response.json({
           detail: 'The prompt was detected as malicious.',
-          parameters: [{ name: 'detector', value: error.detector }],
+          parameters: [{ name: 'analyzer', value: error.analyzer }],
         });
       }
 
