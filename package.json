@@ -21,7 +21,7 @@
     "@biomejs/biome": "1.9.4",
     "@cloudflare/vitest-pool-workers": "0.8.11",
     "@cloudflare/workers-types": "4.20250404.0",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "ultracite": "4.2.1",
     "wrangler": "4.7.1"
   }
