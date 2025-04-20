@@ -23,6 +23,6 @@
     "@cloudflare/workers-types": "4.20250417.0",
     "typescript": "5.8.3",
     "ultracite": "4.2.1",
-    "wrangler": "4.11.1"
+    "wrangler": "4.12.0"
   }
 }
