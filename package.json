@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@langchain/cloudflare": "0.1.0",
-    "@langchain/core": "0.3.51",
+    "@langchain/core": "0.3.53",
     "pangea-node-sdk": "5.1.0"
   },
   "devDependencies": {
