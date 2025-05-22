@@ -20,7 +20,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@cloudflare/vitest-pool-workers": "0.8.30",
-    "@cloudflare/workers-types": "4.20250517.0",
+    "@cloudflare/workers-types": "4.20250519.0",
     "typescript": "5.8.3",
     "ultracite": "4.2.5",
     "wrangler": "4.15.2"
