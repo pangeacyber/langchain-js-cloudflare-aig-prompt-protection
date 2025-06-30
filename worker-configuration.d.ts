@@ -1,6 +1,4 @@
-// biome-ignore lint/correctness/noUnusedVariables: global
 interface Env {
-  // biome-ignore lint/correctness/noUndeclaredVariables: global
   AI: Ai;
 
   CLOUDFLARE_ACCOUNT_ID: string;
