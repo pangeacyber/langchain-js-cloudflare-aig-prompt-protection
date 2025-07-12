@@ -22,7 +22,7 @@
     "@cloudflare/vitest-pool-workers": "0.8.47",
     "@cloudflare/workers-types": "4.20250627.0",
     "typescript": "5.8.3",
-    "ultracite": "5.0.25",
+    "ultracite": "5.0.32",
     "wrangler": "4.22.0"
   }
 }
