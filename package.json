@@ -18,7 +18,7 @@
     "pangea-node-sdk": "5.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.2",
+    "@biomejs/biome": "2.1.3",
     "@cloudflare/vitest-pool-workers": "0.8.58",
     "@cloudflare/workers-types": "4.20250726.0",
     "typescript": "5.8.3",
