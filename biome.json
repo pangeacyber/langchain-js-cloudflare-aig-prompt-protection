@@ -1,11 +1,12 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["ultracite"],
+  "extends": ["@kenan/biome-config"],
   "linter": {
     "rules": {
       "correctness": {
         "noNodejsModules": "off"
       },
+      "nursery": "off",
       "style": {
         "noNonNullAssertion": "off",
         "useNamingConvention": "off"
