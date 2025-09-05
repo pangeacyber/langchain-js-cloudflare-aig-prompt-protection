@@ -18,11 +18,11 @@
     "pangea-node-sdk": "5.3.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.4",
+    "@biomejs/biome": "2.2.2",
     "@cloudflare/vitest-pool-workers": "0.8.68",
     "@cloudflare/workers-types": "4.20250902.0",
+    "@kenan/biome-config": "1.0.4",
     "typescript": "5.9.2",
-    "ultracite": "5.1.2",
     "wrangler": "4.33.1"
   }
 }
