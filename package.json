@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "license": "MIT0",
+  "packageManager": "pnpm@10.15.0",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
@@ -23,6 +24,6 @@
     "@cloudflare/workers-types": "4.20250906.0",
     "@kenan/biome-config": "1.0.4",
     "typescript": "5.9.2",
-    "wrangler": "4.33.1"
+    "wrangler": "4.34.0"
   }
 }

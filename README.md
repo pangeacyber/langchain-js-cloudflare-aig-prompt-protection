@@ -19,7 +19,7 @@ a LangChain app to capture and filter what users are sending to LLMs:
 ```shell
 git clone https://github.com/pangeacyber/langchain-js-cloudflare-aig-prompt-protection.git
 cd langchain-js-cloudflare-aig-prompt-protection
-npm ci
+pnpm install
 cp .dev.vars.example .dev.vars
 ```
 
@@ -35,7 +35,7 @@ Fill out the following environment variables in `.dev.vars`:
 A local version of the Worker can be started with:
 
 ```shell
-npm start
+pnpm start
 ```
 
 Then prompts can be sent to the worker via an HTTP POST request like so:
