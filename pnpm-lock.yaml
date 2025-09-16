@@ -15,8 +15,8 @@ importers:
         specifier: 0.3.75
         version: 0.3.75
       pangea-node-sdk:
-        specifier: 5.3.0
-        version: 5.3.0
+        specifier: 5.4.0
+        version: 5.4.0
     devDependencies:
       '@biomejs/biome':
         specifier: 2.2.4
@@ -1047,8 +1047,8 @@ packages:
     resolution: {integrity: sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==}
     engines: {node: '>=8'}
 
-  pangea-node-sdk@5.3.0:
-    resolution: {integrity: sha512-PwutwaG5r6rGbsKEM9iNyx/prmGvocqad/h+l0IMv9sfjgKJw96f9VMW2t7TyNOPgl3xf8+m9WMg7zR/qTe/mQ==}
+  pangea-node-sdk@5.4.0:
+    resolution: {integrity: sha512-jBWyP5o9gClYUfv6TYrUCt5wdcCVWPiZgSCpBH3x3KzGLXE+bvnelvgVXaMzkzIBMzRUwn2LPIj5yYTn+nbfXQ==}
     engines: {node: 20 || >=22}
 
   path-to-regexp@6.3.0:
@@ -2110,7 +2110,7 @@ snapshots:
     dependencies:
       p-finally: 1.0.0
 
-  pangea-node-sdk@5.3.0:
+  pangea-node-sdk@5.4.0:
     dependencies:
       '@aws-crypto/crc32c': 5.2.0
       crypto-js: 4.2.0
