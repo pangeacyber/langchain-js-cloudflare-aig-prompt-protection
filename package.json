@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@langchain/cloudflare": "0.1.1",
+    "@langchain/cloudflare": "0.1.2",
     "@langchain/core": "0.3.77",
     "pangea-node-sdk": "5.5.1"
   },
