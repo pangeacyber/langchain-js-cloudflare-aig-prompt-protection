@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@langchain/cloudflare':
         specifier: 0.1.2
-        version: 0.1.2(@langchain/core@0.3.77)
+        version: 0.1.2(@langchain/core@0.3.78)
       '@langchain/core':
-        specifier: 0.3.77
-        version: 0.3.77
+        specifier: 0.3.78
+        version: 0.3.78
       pangea-node-sdk:
         specifier: 5.5.1
         version: 5.5.1
@@ -597,8 +597,8 @@ packages:
     peerDependencies:
       '@langchain/core': '>=0.2.21 <0.4.0'
 
-  '@langchain/core@0.3.77':
-    resolution: {integrity: sha512-aqXHea9xfpVn6VoCq9pjujwFqrh3vw3Fgm9KFUZJ1cF7Bx5HI62DvQPw8LlRB3NB4dhwBBA1ldAVkkkd1du8nA==}
+  '@langchain/core@0.3.78':
+    resolution: {integrity: sha512-Nn0x9erQlK3zgtRU1Z8NUjLuyW0gzdclMsvLQ6wwLeDqV91pE+YKl6uQb+L2NUDs4F0N7c2Zncgz46HxrvPzuA==}
     engines: {node: '>=18'}
 
   '@poppinss/colors@4.1.5':
@@ -1655,12 +1655,12 @@ snapshots:
     dependencies:
       '@biomejs/biome': 2.2.4
 
-  '@langchain/cloudflare@0.1.2(@langchain/core@0.3.77)':
+  '@langchain/cloudflare@0.1.2(@langchain/core@0.3.78)':
     dependencies:
-      '@langchain/core': 0.3.77
+      '@langchain/core': 0.3.78
       uuid: 10.0.0
 
-  '@langchain/core@0.3.77':
+  '@langchain/core@0.3.78':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
