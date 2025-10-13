@@ -980,8 +980,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  langsmith@0.3.72:
-    resolution: {integrity: sha512-XjTonMq2fIebzV0BRlPx8mi+Ih/NsQT6W484hrW/pJYuq0aT5kpLtzQthVVmsXH8ZYYkgkbQ5Gh5Mz1qoCrAwg==}
+  langsmith@0.3.73:
+    resolution: {integrity: sha512-zuAAFiY6yfqU+Y8OicEmBqahLWqzMumNY7tcXnuGk8P26hS5aqh+9rXfI4zv0nr++97kNP9WCiBDgPWcrSWlDA==}
     peerDependencies:
       '@opentelemetry/api': '*'
       '@opentelemetry/exporter-trace-otlp-proto': '*'
@@ -1088,8 +1088,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1379,7 +1379,7 @@ snapshots:
       cjs-module-lexer: 1.4.3
       devalue: 5.3.2
       miniflare: 4.20251008.0
-      semver: 7.7.2
+      semver: 7.7.3
       vitest: 3.2.4
       wrangler: 4.42.2(@cloudflare/workers-types@4.20251008.0)
       zod: 3.25.76
@@ -1667,7 +1667,7 @@ snapshots:
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.21
-      langsmith: 0.3.72
+      langsmith: 0.3.73
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -2017,14 +2017,14 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  langsmith@0.3.72:
+  langsmith@0.3.73:
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
       console-table-printer: 2.14.6
       p-queue: 6.6.2
       p-retry: 4.6.2
-      semver: 7.7.2
+      semver: 7.7.3
       uuid: 10.0.0
 
   loupe@3.2.1: {}
@@ -2148,13 +2148,13 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.4
       fsevents: 2.3.3
 
-  semver@7.7.2: {}
+  semver@7.7.3: {}
 
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
       detect-libc: 2.1.2
-      semver: 7.7.2
+      semver: 7.7.3
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
