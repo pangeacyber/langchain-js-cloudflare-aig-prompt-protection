@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@langchain/cloudflare':
-        specifier: 0.1.2
-        version: 0.1.2(@langchain/core@1.0.1)
+        specifier: 1.0.0
+        version: 1.0.0(@langchain/core@1.0.1)
       '@langchain/core':
         specifier: 1.0.1
         version: 1.0.1
@@ -591,11 +591,11 @@ packages:
     peerDependencies:
       '@biomejs/biome': ^2.2.2
 
-  '@langchain/cloudflare@0.1.2':
-    resolution: {integrity: sha512-NLTPcH73zA860fseAfUxGHaRBiaVwd1SgeDAUzHGclZMfAZJ8RwD4JTELj3BF6lXOGHhPDfLaGM2f8CytBlNQA==}
-    engines: {node: '>=18'}
+  '@langchain/cloudflare@1.0.0':
+    resolution: {integrity: sha512-wKMfwoCs6s1QfvoExgJeYom3np3nQ0LHqdslXb4czh7RM+e4DmLQtpnsun5sHhE0Ikeqm+A4slGPaMTXuxsmMg==}
+    engines: {node: '>=20'}
     peerDependencies:
-      '@langchain/core': '>=0.2.21 <0.4.0'
+      '@langchain/core': ^1.0.0
 
   '@langchain/core@1.0.1':
     resolution: {integrity: sha512-hVM3EkojYOk4ISJQKjLuWYSH6kyyOFlZIrLFETDA1L0Z2/Iu0q32aJawZ0FDn6rlXE8QZjBt/9OaOL36rXc05w==}
@@ -1650,7 +1650,7 @@ snapshots:
     dependencies:
       '@biomejs/biome': 2.2.6
 
-  '@langchain/cloudflare@0.1.2(@langchain/core@1.0.1)':
+  '@langchain/cloudflare@1.0.0(@langchain/core@1.0.1)':
     dependencies:
       '@langchain/core': 1.0.1
       uuid: 10.0.0
