@@ -34,8 +34,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       wrangler:
-        specifier: 4.44.0
-        version: 4.44.0(@cloudflare/workers-types@4.20251014.0)
+        specifier: 4.45.0
+        version: 4.45.0(@cloudflare/workers-types@4.20251014.0)
 
 packages:
 
