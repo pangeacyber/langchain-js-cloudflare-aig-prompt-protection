@@ -24,6 +24,6 @@
     "@cloudflare/workers-types": "4.20251211.0",
     "@kenan/biome-config": "1.0.6",
     "typescript": "5.9.3",
-    "wrangler": "4.53.0"
+    "wrangler": "4.54.0"
   }
 }
