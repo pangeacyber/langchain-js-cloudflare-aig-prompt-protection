@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@langchain/cloudflare':
         specifier: 1.0.1
-        version: 1.0.1(@langchain/core@1.1.4)
+        version: 1.0.1(@langchain/core@1.1.8)
       '@langchain/core':
-        specifier: 1.1.4
-        version: 1.1.4
+        specifier: 1.1.8
+        version: 1.1.8
       pangea-node-sdk:
         specifier: 5.6.0
         version: 5.6.0
@@ -603,8 +603,8 @@ packages:
     peerDependencies:
       '@langchain/core': ^1.0.0
 
-  '@langchain/core@1.1.4':
-    resolution: {integrity: sha512-AZVHVoLJzhHU/jsjeNto1pvfHaPxGT+V3PcVyvUw0kCiWftdu1bxfwhwSsZJ9B9iJeXJdCIUe089+NYd3FsEuw==}
+  '@langchain/core@1.1.8':
+    resolution: {integrity: sha512-kIUidOgc0ZdyXo4Ahn9Zas+OayqOfk4ZoKPi7XaDipNSWSApc2+QK5BVcjvwtzxstsNOrmXJiJWEN6WPF/MvAw==}
     engines: {node: '>=20'}
 
   '@poppinss/colors@4.1.6':
@@ -977,8 +977,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  langsmith@0.3.87:
-    resolution: {integrity: sha512-XXR1+9INH8YX96FKWc5tie0QixWz6tOqAsAKfcJyPkE0xPep+NDz0IQLR32q4bn10QK3LqD2HN6T3n6z1YLW7Q==}
+  langsmith@0.4.2:
+    resolution: {integrity: sha512-BvBeFgSmR9esl8x5wsiDlALiHKKPybw2wE2Hh6x1tgSZki46H9c9KI9/06LARbPhyyDu/TZU7exfg6fnhdj1Qg==}
     peerDependencies:
       '@opentelemetry/api': '*'
       '@opentelemetry/exporter-trace-otlp-proto': '*'
@@ -1639,19 +1639,19 @@ snapshots:
     dependencies:
       '@biomejs/biome': 2.3.10
 
-  '@langchain/cloudflare@1.0.1(@langchain/core@1.1.4)':
+  '@langchain/cloudflare@1.0.1(@langchain/core@1.1.8)':
     dependencies:
-      '@langchain/core': 1.1.4
+      '@langchain/core': 1.1.8
       uuid: 10.0.0
 
-  '@langchain/core@1.1.4':
+  '@langchain/core@1.1.8':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.21
-      langsmith: 0.3.87
+      langsmith: 0.4.2
       mustache: 4.2.0
       p-queue: 6.6.2
       uuid: 10.0.0
@@ -1995,7 +1995,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  langsmith@0.3.87:
+  langsmith@0.4.2:
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
